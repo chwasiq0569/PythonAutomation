@@ -11,3 +11,4 @@ for row in range(2, sheet.max_row + 1):
     corrected_Value_cell.value = corrected_Value
     print(sheet.cell(row, 4).value)
 
+wb.save("transactions2.xlsx")
